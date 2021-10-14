@@ -1,0 +1,12 @@
+body, #background_pic {
+  background-image: url("../background/trash.jpg");
+  background-size: cover;
+  background-position: center 60%;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode:lighten;
+}
+
+body, #box{
+    height: auto;
+    width: auto;
+}
