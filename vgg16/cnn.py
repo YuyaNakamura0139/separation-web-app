@@ -1,6 +1,4 @@
 from tensorflow.python.keras.models import load_model
-from tensorflow.python.keras.preprocessing import image
-from PIL import Image
 from project.settings import BASE_DIR
 import numpy as np
 import os
