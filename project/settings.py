@@ -164,7 +164,7 @@ LOGGING = {
 
     # フォーマッタの設定
     'formatters': {
-        'dev': {
+        'prod': {
             'format': '\t'.join([
                 '%(asctime)s',
                 '[%(levelname)s]',
