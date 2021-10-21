@@ -9,7 +9,7 @@ from project.settings import *
 from .cnn import classification
 import shutil
 import os
-from tensorflow.python.keras.preprocessing import image
+import cv2
 from PIL import Image
 
 
@@ -39,7 +39,7 @@ class ImageView(generic.FormView):
             img_path = path + img_name
 
             # 画像の判定
-            img = Image.open(img_path)
+            img = cv2.imread(img_path)
             result_num = classification(img)
             if result_num > 0.5:
                 result = 'ペットボトル'
