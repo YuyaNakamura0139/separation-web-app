@@ -26,7 +26,7 @@ CNNモデルを自作し、学習データは自分で写真を撮って収集�
  
 # AWS構成図
   
-![AWS](https://user-images.githubusercontent.com/84562508/138396481-9fb47658-33a0-4271-8fea-eec0acd4ff80.png)
+![AWS](https://user-images.githubusercontent.com/84562508/138400766-8ae237e8-bef4-4a5f-b28c-a5912b5ee295.png)
   
 取得した独自ドメインはRoute53でElasticIPと紐付けしました。
 WebサーバーにはNginx、AppサーバーにはGunicornを用いました。
